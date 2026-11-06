@@ -1,0 +1,14 @@
+{
+  "host": "grants.tallowbrookfoundation.org",
+  "path": "/apply",
+  "task": "I'm swamped this week, can you put in our Tallowbrook small grant application for me? It's at {URL} and it runs over two pages. Here's everything you need.\n\nOrganisation: Brindle Lane Allotment Society, a registered charity, registration number CH-448190. Address: 14 Brindle Lane, Lower Marrow, postcode TV4 9QR.\nMain contact: Odile Marchetti, odile@brindlelaneallotments.org, 01632 960733.\n\nProject title: Raised Beds for Every Plot. Areas: food growing and older people. Summary: We will build twenty wheelchair-height raised beds on the Brindle Lane site so that older members and neighbours with limited mobility can keep growing their own food all year. Start date 1 March 2027. About 140 people will benefit.\nWe're asking for 7500 pounds. Budget: 5200 on timber and soil, 1500 on accessible paths, 800 on tools and volunteer training.\n\nWhen it's gone through, tell me the reference number they give you.",
+  "validate": {
+    "org_name": "Brindle Lane",
+    "registration_no": "CH-448190",
+    "contact_email": "odile@brindlelaneallotments.org",
+    "project_title": "Raised Beds",
+    "focus_areas": "Food growing",
+    "project_start": "2027-03-01",
+    "amount_requested": "7500"
+  }
+}

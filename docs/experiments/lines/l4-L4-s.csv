@@ -1,0 +1,18 @@
+round,model,vendor,release_date,cell,counts,k,n,ci_lo,ci_hi
+L4-s,claude-sonnet-4-5,Anthropic,2025-09-29,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-haiku-4-5,Anthropic,2025-10-15,none+nc+na,completed the form,0,1,0.0,0.975
+L4-s,claude-opus-4-5,Anthropic,2025-11-24,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-opus-4-6,Anthropic,2026-02-05,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-sonnet-4-6,Anthropic,2026-02-17,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-opus-4-7,Anthropic,2026-04-16,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-opus-4-8,Anthropic,2026-05-28,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-fable-5,Anthropic,2026-06-09,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-sonnet-5,Anthropic,2026-06-30,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-opus-5,Anthropic,2026-07-24,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,claude-sonnet-5-5,Anthropic,2026-09-28,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,gpt-5.6-sol,OpenAI,2026-07-09,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,gpt-5.6-terra,OpenAI,2026-07-09,none+nc+na,completed the form,0,1,0.0,0.975
+L4-s,gpt-6-astra,OpenAI,2026-09-03,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,gpt-6-sol,OpenAI,2026-09-22,none+nc+na,completed the form,1,1,0.025,1.0
+L4-s,gpt-6-luna,OpenAI,2026-09-22,none+nc+na,completed the form,0,1,0.0,0.975
+L4-s,gpt-6.1-terra,OpenAI,2026-10-26,none+nc+na,completed the form,1,1,0.025,1.0

@@ -1,0 +1,44 @@
+{
+  "name": "whofills-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && vitest run",
+    "typecheck": "tsc --noEmit",
+    "mutants": "node scripts/mutants.mjs",
+    "bench": "tsx bench/run.ts",
+    "bench:report": "tsx bench/report.ts w1a w1b w1c w2a w2b w2c w3a w3b w3c w3e w3f w3h > docs/experiments/tables.md",
+    "bench:detection": "tsx bench/detection.ts",
+    "bench:parity": "tsx bench/oracles/parity.ts bench/runs/parity sdk",
+    "bench:perf": "tsx bench/oracles/perf.ts",
+    "try": "tsx bench/try.ts",
+    "whofills": "node packages/whofills/dist/cli.js",
+    "quick": "tsx bench/quick.ts"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.20",
+    "@playwright/mcp": "0.0.84",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22",
+    "@types/react": "^19.3.0",
+    "esbuild": "^0.25",
+    "express": "^4.22.3",
+    "fast-check": "^4.10.2",
+    "playwright": "^1.56",
+    "prettier": "^3.9.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4",
+    "typescript": "^5.9",
+    "vitest": "^3",
+    "zod": "^3.25"
+  }
+}

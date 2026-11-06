@@ -1,0 +1,17 @@
+{
+  "host": "apply.halloranpiketrust.org",
+  "path": "/apply",
+  "task": "The Halloran-Pike scholarship deadline is coming up and I have no time between shifts. Could you fill in the application for me? It's at {URL}. Details below.\n\nMe: Tamsin Okonkwo-Reyes, born 9 June 2004, tamsin.reyes@larkmail.net, phone 0118 496 0271, 62 Saltmarsh Terrace, Port Ellery, postal code PE3 7LD.\nStudies: Wrenfield Technical College, Diploma in Marine Electrical Engineering, starting Autumn 2027. Grade average 3.6.\nFinances: household income last year was 20,000 to 39,999, and 3 people depend on it including me. I'm not getting other funding. I'm the first in my family to attend, and I'm a carer for a relative.\nReferee: Desmond Achterberg, d.achterberg@wrenfieldtech.ac, he was my workshop instructor at Wrenfield for two years.\nPersonal statement, use this as it is: I grew up watching my mother repair engines on the Port Ellery ferries, and I want to carry that work into cleaner vessels. This diploma will teach me the marine electrical systems that new hybrid boats depend on. Afterwards I plan to return to the harbour and train younger apprentices.\nSign it with my full name and date it 14 January 2027.\n\nThey give you an application number at the end, please send that to me.",
+  "validate": {
+    "first_name": "Tamsin",
+    "last_name": "Okonkwo-Reyes",
+    "date_of_birth": "2004-06-09",
+    "email": "tamsin.reyes@larkmail.net",
+    "institution": "Wrenfield",
+    "gpa": "3.6",
+    "circumstances": "Carer for a relative",
+    "referee_email": "d.achterberg@wrenfieldtech.ac",
+    "personal_statement": "hybrid boats",
+    "signature": "Tamsin Okonkwo-Reyes"
+  }
+}

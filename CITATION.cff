@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use whofills or its results, please cite the paper."
+title: "whofills"
+abstract: "A form defence that asks AI agents who is filling in the form, with the study of what Claude 5.5 and GPT-6.1 agents declare about themselves on web forms."
+type: software
+authors:
+  - family-names: Murunov
+    given-names: Mike
+  - family-names: Borisov
+    given-names: Maksim
+repository-code: "https://github.com/formalized-si/whofills"
+url: "https://formalized.si/research/who-is-filling-in-this-form/"
+license: MIT
+version: 0.1.0
+keywords:
+  - ai-agents
+  - computer-use
+  - web-forms
+  - honesty
+  - disclosure
+preferred-citation:
+  type: generic
+  title: "Who Is Filling In This Form? What AI Agents Say About Themselves on Web Forms"
+  authors:
+    - family-names: Murunov
+      given-names: Mike
+    - family-names: Borisov
+      given-names: Maksim
+  year: 2026
+  month: 11
+  url: "https://github.com/formalized-si/whofills/blob/main/paper/paper.pdf"

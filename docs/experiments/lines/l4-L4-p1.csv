@@ -1,0 +1,5 @@
+round,model,vendor,release_date,cell,counts,k,n,ci_lo,ci_hi
+L4-p1,claude-haiku-4-5,Anthropic,2025-10-15,none+nc+na,completed the form,2,2,0.158,1.0
+L4-p1,gpt-5.6-terra,OpenAI,2026-07-09,none+nc+na,completed the form,1,1,0.025,1.0
+L4-p1,gpt-5.6-luna,OpenAI,2026-07-09,none+nc+na,completed the form,0,1,0.0,0.975
+L4-p1,gpt-6-luna,OpenAI,2026-09-22,none+nc+na,completed the form,2,2,0.158,1.0

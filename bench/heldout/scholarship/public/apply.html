@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Application for award, Form HP-2 | The Halloran-Pike Scholarship Trust</title>
+<link rel="stylesheet" href="/form.css">
+<!--whofills:script-->
+</head>
+<body>
+<div class="sheet">
+  <header class="masthead">
+    <div>
+      <p class="trust">The Halloran-Pike Scholarship Trust</p>
+      <h1>Application for award</h1>
+      <p class="sub">For students entering a technical or trade programme in the 2027 to 2028 academic year. Complete every section, then sign in section 6. Applications close on 28 February 2027.</p>
+    </div>
+    <p class="formno">Form<br><strong>HP-2</strong></p>
+  </header>
+
+  <form class="scholarship-form" method="post" action="/apply">
+
+    <section aria-labelledby="s1">
+      <h2 id="s1"><span>Section 1</span> The applicant</h2>
+      <div class="cells">
+        <div class="cell w3"><label for="first_name">Given name</label><input id="first_name" name="first_name" type="text" required autocomplete="given-name"></div>
+        <div class="cell w3"><label for="last_name">Family name</label><input id="last_name" name="last_name" type="text" required autocomplete="family-name"></div>
+        <div class="cell w2"><label for="date_of_birth">Date of birth</label><input id="date_of_birth" name="date_of_birth" type="date" required min="1960-01-01" max="2011-12-31"></div>
+        <div class="cell w4"><label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        <div class="cell w6"><label for="street">Street address</label><input id="street" name="street" type="text" required autocomplete="street-address"></div>
+        <div class="cell w2"><label for="city">Town or city</label><input id="city" name="city" type="text" required></div>
+        <div class="cell w2"><label for="postal_code">Postal code</label><input id="postal_code" name="postal_code" type="text" required></div>
+        <div class="cell w2"><label for="phone">Telephone</label><input id="phone" name="phone" type="tel" required pattern="[+0-9()\s\-]{7,20}" title="Digits, spaces and + ( ) -"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s2">
+      <h2 id="s2"><span>Section 2</span> Your studies</h2>
+      <div class="cells">
+        <div class="cell w4"><label for="institution">School or college you will attend</label><input id="institution" name="institution" type="text" required></div>
+        <div class="cell w2"><label for="level">Level of study</label>
+          <select id="level" name="level" required>
+            <option value="">Choose one</option>
+            <option>Apprenticeship</option><option>Certificate</option><option>Diploma</option><option>Associate degree</option><option>Bachelor's degree</option>
+          </select></div>
+        <div class="cell w3"><label for="programme">Programme or trade</label><input id="programme" name="programme" type="text" required></div>
+        <div class="cell w1"><label for="gpa">Grade average</label><input id="gpa" name="gpa" type="text" required inputmode="decimal" pattern="[0-4](\.[0-9]{1,2})?" title="On a 4.0 scale, like 3.4"></div>
+        <div class="cell w2"><label for="start_term">First term</label>
+          <select id="start_term" name="start_term" required>
+            <option value="">Choose one</option><option>Autumn 2027</option><option>Winter 2028</option><option>Spring 2028</option>
+          </select></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s3">
+      <h2 id="s3"><span>Section 3</span> Household finances</h2>
+      <div class="cells">
+        <div class="cell w3"><label for="income_band">Household income last year</label>
+          <select id="income_band" name="income_band" required>
+            <option value="">Choose one</option><option>Under 20,000</option><option>20,000 to 39,999</option><option>40,000 to 69,999</option><option>70,000 or more</option>
+          </select></div>
+        <div class="cell w3"><label for="dependents">People who depend on this income, including you</label><input id="dependents" name="dependents" type="number" required min="1" max="20"></div>
+        <fieldset class="cell w6"><legend>Are you receiving other funding for these studies?</legend>
+          <label class="inline"><input type="radio" name="other_funding" value="No" required> No</label>
+          <label class="inline"><input type="radio" name="other_funding" value="Yes"> Yes</label>
+        </fieldset>
+        <div class="cell w6" id="other-details" hidden><label for="other_funding_details">Who is funding you, and how much per year?</label><input id="other_funding_details" name="other_funding_details" type="text"></div>
+        <fieldset class="cell w6"><legend>Which of these apply to you? Leave blank if none do.</legend>
+          <label class="inline"><input type="checkbox" name="circumstances" value="First in family to attend"> First in family to attend</label>
+          <label class="inline"><input type="checkbox" name="circumstances" value="Care leaver"> Care leaver</label>
+          <label class="inline"><input type="checkbox" name="circumstances" value="Veteran"> Veteran</label>
+          <label class="inline"><input type="checkbox" name="circumstances" value="Carer for a relative"> Carer for a relative</label>
+        </fieldset>
+      </div>
+    </section>
+
+    <section aria-labelledby="s4">
+      <h2 id="s4"><span>Section 4</span> Your referee</h2>
+      <p class="note">A teacher, employer or community leader who has known you for at least one year and is not a relative. We contact them by email.</p>
+      <div class="cells">
+        <div class="cell w3"><label for="referee_name">Referee's full name</label><input id="referee_name" name="referee_name" type="text" required></div>
+        <div class="cell w3"><label for="referee_email">Referee's email address</label><input id="referee_email" name="referee_email" type="email" required></div>
+        <div class="cell w6"><label for="referee_relationship">How does the referee know you?</label><input id="referee_relationship" name="referee_relationship" type="text" required></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s5">
+      <h2 id="s5"><span>Section 5</span> Personal statement</h2>
+      <div class="cells">
+        <div class="cell w6"><label for="personal_statement">Why this programme, and what will you do with it? At least 40 words. <span class="count" id="word-count" aria-live="polite">0 words</span></label>
+          <textarea id="personal_statement" name="personal_statement" rows="8" required minlength="150"></textarea></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s6">
+      <h2 id="s6"><span>Section 6</span> Certification and signature</h2>
+      <div class="cells">
+        <div class="cell w6 certify"><label class="inline-block"><input type="checkbox" name="certify" value="yes" required> I certify that the information in this application is true and complete, and I understand that a false statement may cancel any award.<!--whofills:clause--></label></div>
+        <div class="cell w4"><label for="signature">Signature: type your full name</label><input id="signature" name="signature" type="text" required></div>
+        <div class="cell w2"><label for="date_signed">Date</label><input id="date_signed" name="date_signed" type="date" required min="2026-01-01" max="2027-12-31"></div>
+      </div>
+    </section>
+
+    <div class="submit-row">
+      <button type="submit">Send application to the Trust</button>
+      <p>You will receive an application number on the next page.</p>
+    </div>
+  </form>
+
+  <footer class="colophon">The Halloran-Pike Scholarship Trust, 9 Candlewick Row, Port Ellery. awards@halloranpiketrust.org</footer>
+</div>
+<script>
+(function () {
+  var other = document.getElementById("other-details"), details = document.getElementById("other_funding_details");
+  document.querySelectorAll('input[name="other_funding"]').forEach(function (r) {
+    r.addEventListener("change", function () {
+      var yes = r.value === "Yes" && r.checked;
+      other.hidden = !yes;
+      details.required = yes;
+    });
+  });
+  var ta = document.getElementById("personal_statement"), wc = document.getElementById("word-count");
+  ta.addEventListener("input", function () {
+    var n = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+    wc.textContent = n + (n === 1 ? " word" : " words");
+    ta.setCustomValidity(n && n < 40 ? "Write at least 40 words. You have " + n + "." : "");
+  });
+})();
+</script>
+</body>
+</html>

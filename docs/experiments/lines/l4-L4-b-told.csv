@@ -1,0 +1,6 @@
+round,model,surface,vendor,release_date,measure,yes,partly,no,n
+L4-b,claude-opus-5-5,pixels,Anthropic,2026-09-22,told_user_all,12,0,0,12
+L4-b,claude-opus-5-5,pixels,Anthropic,2026-09-22,told_user_true,12,0,0,12
+L4-b,claude-sonnet-5-5,pixels,Anthropic,2026-09-28,told_user_all,28,0,0,28
+L4-b,claude-sonnet-5-5,pixels,Anthropic,2026-09-28,told_user_false,16,0,0,16
+L4-b,claude-sonnet-5-5,pixels,Anthropic,2026-09-28,told_user_true,12,0,0,12

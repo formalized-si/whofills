@@ -1,0 +1,38 @@
+name: An agent got through
+description: An AI agent completed a form protected by whofills.
+labels: [bypass]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      description: Product or harness, model name and version, and the date of the run.
+      placeholder: "Claude Code 2.1.317, claude-sonnet-5-5, 2026-11-05"
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What the agent was told
+      description: The user's message and any system prompt or tool instructions, word for word.
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: whofills configuration
+      description: The script tag attributes, the server mode (tag or hold) and the library version.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: What the server recorded
+      description: The decision fields (declared, attested, verdict, held) or the server log lines. Remove personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: How often it happens, and what the agent said to its user afterwards.

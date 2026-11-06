@@ -1,0 +1,29 @@
+{
+  "name": "whofills",
+  "version": "0.1.0",
+  "description": "A form defence against AI agents, and a CLI that tests whether real agents complete your form.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Formalized (https://formalized.si)",
+  "homepage": "https://github.com/formalized-si/whofills#readme",
+  "bugs": "https://github.com/formalized-si/whofills/issues",
+  "repository": { "type": "git", "url": "git+https://github.com/formalized-si/whofills.git", "directory": "packages/whofills" },
+  "keywords": ["computer-use", "ai-agents", "bot-detection", "forms", "captcha", "accessibility", "playwright", "cli", "web-forms", "agent-detection", "ai-safety"],
+  "engines": { "node": ">=20" },
+  "bin": { "whofills": "dist/cli.js" },
+  "exports": {
+    "./whofills.js": "./dist/whofills.js",
+    "./hold.js": "./dist/hold.js",
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js",
+      "require": "./dist/server/index.cjs"
+    },
+    "./react": { "types": "./dist/react.d.ts", "default": "./dist/react.js" },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": { "prepack": "node ../../scripts/build.mjs" },
+  "peerDependencies": { "react": ">=18" },
+  "peerDependenciesMeta": { "react": { "optional": true } }
+}

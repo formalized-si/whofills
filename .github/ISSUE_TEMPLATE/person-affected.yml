@@ -1,0 +1,23 @@
+name: It gets in a person's way
+description: The library blocks, confuses or slows down a person. We treat these as release blockers.
+labels: [accessibility]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What the person tried to do and what they saw.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Setup
+      description: Browser, device and any assistive technology (screen reader, voice control, switch access, password manager, autofill).
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: whofills configuration
+      description: The script tag attributes, the server mode and the library version, if you know them.

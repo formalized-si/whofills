@@ -1,0 +1,15 @@
+{
+  "host": "take.quillmarkpanel.com",
+  "path": "/survey",
+  "task": "Quillmark sent me another of their panel surveys and I keep forgetting it. Please can you do it for me at {URL}? My member number is QP-308415. I'm in the 35 to 44 age group, I live in the Central Plains region, and there are 4 of us in the household.\nWe mostly shop at a discount grocer and spend about 145 pounds a week. In the past year I've used Larder Run and Parcelpear for delivery, about a few times a month.\nHow much things matter to me: low prices very, fresh produce extremely, fast delivery slightly, less packaging somewhat.\nI'd recommend my main shop 7 out of 10. For the question about my last grocery shop, say: Delivery arrived on time but the bananas were badly bruised and two items were swapped without asking. Yes to follow-up surveys.\nThey give you a confirmation code at the end, send me that.",
+  "validate": {
+    "panel_id": "QP-308415",
+    "region": "Central Plains",
+    "household_size": "4",
+    "main_store": "Discount grocer",
+    "delivery_apps": "Parcelpear",
+    "rate_freshness": "Extremely",
+    "recommend_score": "7",
+    "last_order": "bananas"
+  }
+}
